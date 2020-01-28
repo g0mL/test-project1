@@ -1,0 +1,561 @@
+@font-face{
+
+    font-family: 'GothamMed';
+    
+    src: url('fonts/GothaProMed.otf');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}
+@font-face{
+
+    font-family: 'GothamBold';
+    
+    src: url('fonts/GothaProBol.otf');
+    
+    font-weight: normal;
+    
+    font-style: bold;
+    
+}
+@font-face{
+
+    font-family: 'GothamReg';
+    
+    src: url('fonts/GothaProReg.otf');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}
+@font-face{
+
+    font-family: 'GothamBook';
+    
+    src: url('fonts/Gotham-Book.woff2') format('woff2'),
+    
+    url('fonts/Gotham-Book.woff') format('woff'),
+    
+    url('fonts/Gotham-Book.ttf') format('truetype');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+    }
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+.lonaso{
+    background-image: url("../img/lonaso.jpg");
+    background-repeat: no-repeat;
+    padding-top: 23px;
+    padding-bottom: 110px;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+.nav-link{
+    font-family: myriad-pro-condensed, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #d8d8d8;
+    margin-left: 48px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+.nav-link:hover{
+    border-bottom: 5px solid #1697ce;
+}
+.lonaso-header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.lonaso-line{
+    color: #d8d8d8;
+    opacity: 20%;
+    margin-bottom: 270px;
+}
+.social-link{
+    margin-left: 22px;
+}
+.social-link:first-child{
+    margin-left: 0;
+}
+.lonaso-content{
+    display: block;
+    text-align:center;
+    margin-bottom: 116px;
+}
+.central-title{
+    font-family: 'GothamBold', sans-serif;
+    font-size: 150px;
+    margin: 0;
+}
+.central-subtitle{
+    font-family: 'GothamMed', sans-serif;
+    font-size: 25px;
+    color: #1697ce;
+    margin: 0;
+    letter-spacing: 20px;
+    margin-left: 25px;
+}
+.lonaso-scrollDown{
+    display: block;
+    text-align: center;
+}
+.title-page{
+    display: block;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: 70px;
+}
+.section-title{
+    font-size: 38px;
+    font-family: 'GothamMed', sans-serif;
+    margin: 0;
+    position: relative;
+    top: 160px;
+}
+.section-letter{
+    font-size: 247px;
+    font-weight: bold;
+    margin: 0;
+    opacity: 18%;
+}
+
+
+/* Features */
+
+.features{
+    background-color: #11749e;
+}
+.features-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.features-item{
+    text-align: center;
+    width: 270px;
+}
+.features-image{
+    margin: 0;
+    margin-bottom: 24px;
+}
+.fitem-title{
+    font-size: 18px;
+    font-family: 'GothamMed', sans-serif;
+    margin: 0;
+    margin-bottom: 25px;
+}
+.fitem-text{
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'GothamBook', sans-serif;
+    margin: 0;
+    margin-bottom: 130px;
+}
+
+/* News */
+
+.news{
+    margin: 0;
+    padding: 0;
+}
+.container-news {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    height: 450px;
+    padding: 0 15px;
+}
+.news1{
+    display: flex;
+    background-color: #222222;
+}
+.news2{
+    display: flex;
+    background-color: #f3f3f3;
+}
+.news-image1{
+    height: 450px;
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+.news-image2{
+    height: 450px;
+    position: absolute;
+    left: 0;
+    width: 50%;
+}
+.news-item{
+    width: 43%;
+    padding-top: 80px;
+}
+.news-item2{
+    color: #000;
+    position: absolute;
+    right: 0;
+}
+.news-date{
+    font-family: 'GothamBook', sans-serif;
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.news-title{
+    font-family: 'GothamMed', sans-serif;
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.news-text{
+    font-family: 'GothamBook', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0;
+}
+
+/* Blog */
+
+.blog{
+    background-color: #fff;
+    color: #000;
+}
+.blog-description{
+    font-family: 'GothamBook', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+.blog-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.blog-item{
+    text-align: center;
+    width: 270px;
+}
+.blog-image{
+    width: 270px;
+    height: 280px;
+    margin: 0;
+    margin-bottom: 35px;
+}
+.blog-title{
+    font-size: 18px;
+    font-family: 'GothamMed', sans-serif;
+    color: #11749e;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.blog-text{
+    font-size: 15px;
+    font-family: 'GothamBook', sans-serif;
+    margin: 0;
+    line-height: 20px;
+    color: #222222;
+    margin-bottom: 112px;
+}
+
+/* QuickAction-Area */
+
+.quickAction{
+    background-color: #11749e;
+    padding-top: 100px;
+}
+.quickAction-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.quickAction-item{
+    flex-basis: 43%;
+    display: flex;
+    width: 570px;
+    margin-bottom: 128px;
+}
+.quickAction-image{
+    width: 69px;
+    height: 69px;
+    margin-right: 35px;
+}
+.quickAction-text{
+    font-size: 15px;
+    font-family: 'GothamBook', sans-serif;
+    margin: 0;
+    line-height: 25px;
+}
+
+/* KeyFeatures */
+
+.button{
+    background-color: #11749e;
+    border: none;
+    color: #fff;
+    font-family: 'GothamMed', sans-serif;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.keyFeatures{
+    background-image: url('../img/keyFeatures.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 99px;
+    padding-bottom: 100px;
+}
+.keyFeatures-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.keyFeatures-image{
+    width: 315px;
+    height: 507px;
+}
+.keyFeatures-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+}
+.keyFeatures-text{
+    font-size: 15px;
+    font-family: 'GothamBook', sans-serif;
+    margin: 0;
+    line-height: 25px;
+    margin-bottom: 70px;
+
+}
+.button-fully{
+    padding-right: 135px;
+    margin-bottom: 24px;
+}
+.button-high{
+    padding-right: 219px;
+    margin-bottom: 24px;
+}
+.button-different{
+    padding-right: 159px;
+}
+
+/* Team */
+
+.team{
+    background-color: #fff;
+    color: #000;
+}
+.team-block{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 105px;
+    flex-wrap: wrap;
+}
+.team-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 15px;
+}
+.team-image{
+    width: 270px;
+    height: 415px;
+}
+.team-hero{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    padding: 24px 44px;
+    bottom: -45px;
+}
+.team-name{
+    font-family: 'GothamMed', sans-serif;
+    font-size: 20px;
+    color: #11749e;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.team-role{
+    font-family: 'GothamMed', sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+/* Contact */
+
+.contact{
+    background-image: url('../img/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.input{
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'GothamBook', sans-serif;
+    margin: 0;
+    padding-top: 19px;
+    padding-bottom: 16px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin: 0 28px;
+}
+::-webkit-input-placeholder {color:#fff;}
+.contact-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.input-info{
+    width: 370px;
+    flex-basis: 344px;
+    margin-bottom: 39px;
+}
+.input-message{
+    width: 95.5%;
+    height: 150px;
+    margin-bottom: 40px;
+    flex-basis: 100%;
+}
+.form-button{
+    padding: 0 63px;
+    padding-top: 19px;
+    padding-bottom: 22px;
+    margin-bottom: 5px;
+}
+.maparea{
+    height: 230px;
+    background-image: url('../img/map.jpg');
+    background-repeat: no-repeat;
+    background-position: center top -38px;
+    background-size: 100%;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #222222;
+    padding: 10px 0;
+}
+.footer-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.footer-reserved{
+    font-size: 13px;
+}
+.footer-site-layout{
+    font-size: 13px;
+}
+
+/* responsive */
+@media(max-width: 1600px){
+    .contact{
+        background-size:auto;
+    }
+    .contact-block{
+        padding-bottom: 60px;
+    }
+    .maparea{
+        background-position:center;
+        background-size: auto;
+    }
+}
+@media(max-width: 1333px){
+    .team-block{
+        padding-bottom: 45px;
+    }
+    .team-item{
+        flex-basis: 40%;
+        margin-bottom: 80px;
+    }
+    .maparea{
+        background-size: auto;
+    }
+}
+@media(max-width: 1200px){
+    .nav-link{
+        margin-left: 28px;
+    }
+    .fitem-text{
+        padding: 0 20px;
+    }
+    .container-news{
+        height: 350px;
+    }
+    .news-item{
+        padding-top: 60px;
+    }
+    .news-image1{
+        height: 350px;
+    }
+    .news-image2{
+        height: 350px;
+    }
+    .blog-item{
+        flex-basis: 50%;
+    }
+    .blog-text{
+        margin-bottom: 62px;
+        padding: 0 40px;
+    }
+    .team-block{
+        padding-bottom: 45px;
+    }
+    .team-item{
+        flex-basis: 40%;
+        margin-bottom: 80px;
+    }
+    .maparea{
+        background-size: auto;
+    }
+}
+@media(max-width: 1194px){
+    .news1{
+        align-items:center;
+    }
+    .news2{
+        align-items:center;
+    }
+    .container-news{
+        height: 450px;
+    }
+}
+@media(max-width: 1000px){
+    .nav-link{
+        margin-left: 8px;
+    }
+}
