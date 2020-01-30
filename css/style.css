@@ -142,6 +142,9 @@ body {
     font-weight: bold;
     margin: 0;
     opacity: 18%;
+    filter: alpha(opacity=18); /* данная строчка работает в IE6, IE7, и IE8 */
+    -webkit-opacity: 18%;
+    -moz-opacity: 18%;
 }
 
 
